@@ -2,5 +2,5 @@ This is my own dotfiles managed by [Homeshick](https://github.com/andsens/homesh
 
 ### Installation
 ```bash
-curl -v https://raw.github.com/burningtree/dotfiles/master/install.sh | sh
+curl -s https://raw.github.com/burningtree/dotfiles/master/install.sh | sh
 ```
