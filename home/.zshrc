@@ -1,20 +1,9 @@
-# completion 
-autoload -Uz compinit
-compinit
+# ~/.zshrc
 
-zstyle :compinstall filename '~/.zshrc'
-zstyle ':completion:*' menu select
-zstyle ':completion:*' use-cache on
-zstyle ':completion:*' cache-path ~/.zsh/cache
-
-# history
-HISTSIZE=2000
-HISTFILE="$HOME/.zhistory"
-SAVEHIST=$HISTSIZE
-setopt hist_ignore_all_dups
-
-# colors
-autoload -U colors && colors
+ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="robbyrussell"
+plugins=(git autojump brew tmuxinator)
+source $ZSH/oh-my-zsh.sh
 
 # dirstack
 DIRSTACKSIZE=9
@@ -34,8 +23,8 @@ zman() {
 
 # prompt
 pcolor="$fg[magenta]"
-short_hostname=`hostname -s`
-PROMPT="%{$pcolor%}%n%{$reset_color%}@$short_hostname:%~%{$pcolor%}%#%{$reset_color%} "
+#short_hostname=`hostname -s`
+PROMPT="%{$pcolor%}%n%{$reset_color%}@$SHORT_HOST:%~%{$pcolor%}%#%{$reset_color%} "
 
 # import ~/.bashrc
 [[ -s ~/.bashrc ]] && source ~/.bashrc

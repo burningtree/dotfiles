@@ -1,3 +1,5 @@
+set nocompatible
+
 syn on
 set number
 set showmode
