@@ -6,3 +6,4 @@ alias homeshick="source $HOME/.homesick/repos/homeshick/bin/homeshick.sh"
 alias mysetup="$HOME/.mysetup/bin/mysetup"
 
 alias ls="ls -A"
+alias ll="ls -lAh"
