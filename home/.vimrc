@@ -32,3 +32,9 @@ autocmd InsertEnter * se cul
 
 " html jinja/twig syntax highlight
 au BufRead,BufNewFile *.twig set syntax=htmljinja
+
+" enable pathogen
+execute pathogen#infect()
+
+" set colors to seoul256 [https://github.com/junegunn/seoul256.vim]
+colo seoul256-light
