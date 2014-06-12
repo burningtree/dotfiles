@@ -1,0 +1,47 @@
+# update homebrew
+update
+
+# upgrade already installed formulae
+upgrade
+
+# add repository
+tap caskroom/cask
+
+# Packages
+# main shell & tools
+install fish
+install tmux
+
+# essential
+install vim --override-system-vi   # text editor
+install ack                        # grep successor
+install ag                         # ack successor
+install pv                         # pipe meter
+install apg                        # password generator
+install ncdu                       # disk usage
+install xz                         # compression
+install tree                       # tree generator
+install jq                         # JSON processor
+
+# development
+install git                        # vcs
+install tig                        # git cli browser
+install gist                       # snippets
+install hub                        # git+hub
+#install bfg                       # git repo cleaner
+#install gibo                      # gitignore boilerplates
+
+# network
+install nmap                       # security scanner
+install mtr                        # better traceroute
+install aria2                      # download utility
+
+# Casks
+# setup cask
+install brew-cask
+
+# install
+#cask install yorufukurou         # twitter client
+
+cleanup
+
