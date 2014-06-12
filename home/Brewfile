@@ -8,12 +8,15 @@ upgrade
 tap caskroom/cask
 
 # Packages
+# basic
+install coreutils
+
 # main shell & tools
 install fish
 install tmux
+install vim --override-system-vi
 
 # essential
-install vim --override-system-vi   # text editor
 install ack                        # grep successor
 install ag                         # ack successor
 install pv                         # pipe meter
@@ -24,23 +27,28 @@ install tree                       # tree generator
 install jq                         # JSON processor
 
 # development
-install git                        # vcs
+install git
 install tig                        # git cli browser
 install gist                       # snippets
-install hub                        # git+hub
+install gh                         # git+hub wrapper
 #install bfg                       # git repo cleaner
 #install gibo                      # gitignore boilerplates
 
 # network
+install wget
 install nmap                       # security scanner
 install mtr                        # better traceroute
 install aria2                      # download utility
+
+# osx specific
+install terminal-notifier
 
 # Casks
 # setup cask
 install brew-cask
 
 # install
+#cask install cakebrew
 #cask install yorufukurou         # twitter client
 
 cleanup
