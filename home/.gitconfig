@@ -2,3 +2,4 @@
 	name = Jan Stransky
 	email = jan.stransky@arnal.cz
 [push]
+  default = simple
