@@ -10,6 +10,7 @@ tap caskroom/cask
 # Packages
 # basic
 install coreutils
+install curl
 
 # main shell & tools
 install fish
