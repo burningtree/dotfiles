@@ -47,7 +47,8 @@ install swaks                      # SMTP tester
 install spoof-mac                  # MAC addres spoofing
 
 # encryption
-install gnupg2
+install gnupg2                     # OpenPGP
+install keybase                    # Key repository
 
 # osx specific
 install terminal-notifier
