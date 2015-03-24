@@ -25,6 +25,8 @@ install ncdu                       # disk usage
 install xz                         # compression
 install tree                       # tree generator
 install jq                         # JSON processor
+install multitail                  # tail hype
+install ranger                     # file manager
 
 # development
 install git
@@ -35,10 +37,16 @@ install gh                         # git+hub wrapper
 #install gibo                      # gitignore boilerplates
 
 # network
+install curl                       # newest cURL
 install wget
 install nmap                       # security scanner
 install mtr                        # better traceroute
 install aria2                      # download utility
+install swaks                      # SMTP tester
+install spoof-mac                  # MAC addres spoofing
+
+# encryption
+install gnupg2
 
 # osx specific
 install terminal-notifier

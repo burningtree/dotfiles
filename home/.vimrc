@@ -40,3 +40,19 @@ execute pathogen#infect()
 
 " set colors to seoul256 [https://github.com/junegunn/seoul256.vim]
 colo seoul256-light
+
+" no backup
+set nobackup
+set nowritebackup
+set noswapfile
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_shell = "bash"
