@@ -28,6 +28,8 @@ install tree                       # tree generator
 install jq                         # JSON processor
 install multitail                  # tail hype
 install ranger                     # file manager
+install pigz                       # parallel gzip
+install ssh-copy-id
 
 # development
 install git
@@ -45,10 +47,16 @@ install mtr                        # better traceroute
 install aria2                      # download utility
 install swaks                      # SMTP tester
 install spoof-mac                  # MAC addres spoofing
+install knock                      # port knocking
+install socat
+install speedtest_cli              # speedtest
 
 # encryption
 install gnupg2                     # OpenPGP
 install keybase                    # Key repository
+
+# security
+install john                       # cracker
 
 # osx specific
 install terminal-notifier
