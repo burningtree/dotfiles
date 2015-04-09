@@ -1,0 +1,1 @@
+/usr/local/lib/node_modules/mongo-hacker/mongo_hacker.js
