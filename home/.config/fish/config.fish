@@ -10,5 +10,6 @@ function fish_title; pwd; end
 alias mtr="sudo mtr"
 source $HOME/.homesick/repos/homeshick/homeshick.fish
 
+setenv GOPATH $HOME/.go
 set PATH $PATH /usr/local/bin /usr/local/sbin
 set EDITOR vim

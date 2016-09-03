@@ -49,9 +49,11 @@ install swaks                      # SMTP tester
 install spoof-mac                  # MAC addres spoofing
 install knock                      # port knocking
 install socat
+install ngrep
 install speedtest_cli              # speedtest
 
 # encryption
+install pass                       # password manager
 install gnupg2                     # OpenPGP
 install keybase                    # Key repository
 
@@ -60,6 +62,9 @@ install john                       # cracker
 
 # osx specific
 install terminal-notifier
+
+# other
+install jrnl                       # shell notes
 
 # Casks
 # setup cask
