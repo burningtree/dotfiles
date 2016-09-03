@@ -7,7 +7,10 @@ function fish_title; pwd; end
 # vi(m) mode? not yet
 #set fish_key_bindings fish_vi_key_bindings
 
-alias mtr="sudo mtr"
+if [ (uname -s) = "Darwin" ]
+  alias mtr="sudo mtr"
+end
+
 source $HOME/.homesick/repos/homeshick/homeshick.fish
 
 setenv GOPATH $HOME/.go
