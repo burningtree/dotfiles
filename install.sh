@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # install homeshick
-git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+git clone https://raw.githubusercontent.com/burningtree/dotfiles/master/install.sh | sh
 chmod +x $HOME/.homesick/repos/homeshick/bin/homeshick
 
 # install my castle
