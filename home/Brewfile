@@ -29,6 +29,7 @@ install jq                         # JSON processor
 install multitail                  # tail hype
 install ranger                     # file manager
 install pigz                       # parallel gzip
+install fzf                        # fuzzy finder
 install ssh-copy-id
 
 # development
