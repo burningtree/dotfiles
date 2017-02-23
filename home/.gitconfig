@@ -1,6 +1,7 @@
 [user]
 	name = Jan Stránský
 	email = jan.stransky@arnal.cz
+	signingkey = 09302131
 [push]
   default = simple
 [filter "lfs"]
