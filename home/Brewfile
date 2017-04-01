@@ -17,6 +17,9 @@ install fish
 install tmux
 install vim --override-system-vi
 
+# fish shell tools
+install fisherman
+
 # essential
 install ack                        # grep successor
 install ag                         # ack successor
@@ -51,6 +54,7 @@ install spoof-mac                  # MAC addres spoofing
 install knock                      # port knocking
 install socat
 install ngrep
+install mitmproxy
 install speedtest_cli              # speedtest
 
 # encryption
@@ -66,6 +70,7 @@ install terminal-notifier
 
 # other
 install jrnl                       # shell notes
+install qrencode                   # qr code gen tool
 
 # Casks
 # setup cask
