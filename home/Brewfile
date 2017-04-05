@@ -64,6 +64,7 @@ install keybase                    # Key repository
 
 # security
 install john                       # cracker
+install certigo                    # cert examine & validate
 
 # osx specific
 install terminal-notifier
